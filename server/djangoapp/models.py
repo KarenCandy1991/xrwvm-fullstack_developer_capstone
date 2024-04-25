@@ -1,4 +1,6 @@
-#Uncomment the following imports before adding the Model code
+# This is a comment describing the purpose of the models.py file
+# It should start with a hash symbol followed by a space
+
 
 from django.db import models
 
