@@ -1,7 +1,7 @@
-# Uncomment the required imports before adding the code
+# Uncomment the required imports before adding the code quite este HttpResponseRedirect
 
 from django.shortcuts import render
-from django.http import HttpResponseRedirect, HttpResponse
+from django.http import HttpResponse
 from django.contrib.auth.models import User
 from django.shortcuts import get_object_or_404, render, redirect
 from django.contrib.auth import logout
