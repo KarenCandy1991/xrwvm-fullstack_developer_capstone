@@ -101,7 +101,7 @@ app.post('/insert_review', express.raw({ type: '*/*' }), async (req, res) => {
 		"purchase_date":  data.purchase_dat,
 		"car_make":  data.car_make,
 		"car_model":  data.car_model,
-		"car_year":  data.car_year,
+		"car_year":  data.car_year
 	});
 
   try {
