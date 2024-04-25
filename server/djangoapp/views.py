@@ -136,7 +136,7 @@ def add_review(request):
     if not request.user.is_anonymous:
         try:
             return JsonResponse({"status": 200})
-        except Exception as _:
+        except Exception :
             return JsonResponse({"status": 401, "message": "Error"})
     else:
         return JsonResponse({"status": 403, "message": "Unauthorized"})
