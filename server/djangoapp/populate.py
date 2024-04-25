@@ -1,4 +1,4 @@
-from .models import CarModel
+from .models import CarMake, CarModel
 
 
 def initiate():
