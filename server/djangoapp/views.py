@@ -16,6 +16,8 @@ from .restapis import get_request, analyze_review_sentiments, post_review
 logger = logging.getLogger(__name__)
 
 # Create a `login_request` view to handle sign in request
+
+
 @csrf_exempt
 def login_user(request):
 
