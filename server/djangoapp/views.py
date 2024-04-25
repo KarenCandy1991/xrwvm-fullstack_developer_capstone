@@ -36,6 +36,7 @@ def login_user(request):
 
 # Create a `logout_request` view to handle sign out request
 def logout_request(request):
+    
     logout(request)
     data = {"username": ""}
     return JsonResponse(data)
