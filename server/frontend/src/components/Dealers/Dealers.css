@@ -1,14 +1,14 @@
 table{
     margin:5px;
     padding:10px;
-    border: grey solid 1px;
+    border: rgb(112, 6, 6) solid 1px;
     width:100%
   }
   
   td{
     padding:10px;
     align-self: center;
-    border:solid grey .5px;
+    border:solid rgb(77, 5, 5) .5px;
     text-align: center;
     font-size: large;
   }
@@ -16,7 +16,7 @@ table{
   .review_panel{
     display: flex;
     flex-direction: column;
-    border: solid grey;
+    border: solid rgb(63, 1, 1);
     position: relative;
     height:7cm;
     width:6cm;
@@ -58,7 +58,7 @@ table{
   .reviewer {
     margin: 10px; /* Optional margin for spacing */
     font-style: italic;
-    color: gray;
+    color: rgb(36, 2, 2);
     font-size: small;
 }
 
@@ -71,7 +71,7 @@ table{
   position:fixed;
     width:40px;
     height:40px;
-    background-color:#0C9;
+    background-color:rgb(13, 6, 100);
     color:#FFF;
     border-radius:50px;
     text-align:center;
@@ -80,9 +80,11 @@ table{
 
 .review_icon {
   width:40px;
+  font-size: 18px;
 }
 
 .review_icon:hover {
   transform: scale(1.1);
   border: solid lightgray;
+  text-align: center;
 }
