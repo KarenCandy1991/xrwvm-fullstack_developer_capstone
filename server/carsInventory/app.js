@@ -1,4 +1,4 @@
-/* jshint esversion: 8 */
+/* jshint esversion: 8 
 const express = require('express');
 const mongoose = require('mongoose');
 const fs = require('fs');
@@ -179,10 +179,9 @@ app.get('/cars/:dealer_id', async (req, res) => {
 app.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`);
   });
-  
+  */
 
-  /**
-   
+ 
 const express = require('express');
 const mongoose = require('mongoose');
 const fs = require('fs');
@@ -304,4 +303,4 @@ app.get('/carsbyyear/:id/:year', async (req, res) => {
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
 });
-   **/
+   
